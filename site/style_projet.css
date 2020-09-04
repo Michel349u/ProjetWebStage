@@ -1,0 +1,127 @@
+*{
+
+    margin:0;
+    padding:0;
+    font-family : Arial, sans-serif;
+}
+
+header{
+  color : white;
+  text-align : center;
+  background : #446FBF;
+  padding : 10px 0 10px 0;
+}
+.marge{
+  line-height: 2em;
+}
+a{
+  text-decoration : none;
+}
+
+footer{
+    /* background-color:#FFEF44; */
+    background : #446FBF;
+    color : white;
+   position:fixed;
+    bottom:0;
+    left:0;
+    padding : 10px;
+    width:100%;
+    font-size : smaller;
+    text-align : center;
+}
+section{
+  background-color: lightgrey;
+  padding:20px;
+  margin-top: 40px;
+}
+.test{
+
+  border-bottom: 1px solid  #446FBF;
+  margin-bottom: 1.2em;
+}
+
+footer img{
+ height : 50px;
+ margin :5px;
+}
+
+nav{
+  background : #214589;
+}
+
+header h1, header h2{
+  font-weight : lighter;
+    padding-bottom : 10px;
+}
+.centrage {
+text-align: center;
+}
+
+.main, nav ul{
+    max-width:1200px;
+    margin:auto;
+    text-align : center;
+}
+.main{
+  padding-bottom: 50px;
+}
+.main2{
+  max-width: 1700px;
+  margin:auto;
+  text-align : center;
+  padding-bottom: 50px;
+}
+nav ul{
+		display : flex ;
+		background :  #214589;
+}
+
+nav ul li {
+	width : 96%;
+	text-align : center;
+	align-content : space-between;
+	list-style : none;
+	margin : 10px 1%;
+	background : #446FBF;
+}
+
+nav ul li a {
+  display : block;
+  color : white;
+  padding : 5px;
+}
+
+table{
+margin : 50px auto;
+padding : 20px;
+border : 1px solid silver;
+}
+
+td{
+padding : 10px;
+}
+
+input{
+padding : 5px;
+}
+
+p input{
+background :  #446FBF;
+color : white;
+}
+
+
+.select{
+  margin-bottom: 1.2em;
+}
+.margegauche{
+text-align: left;
+}
+.demi{
+  width: 45%;
+  display: inline-block;
+}
+.demi h2{
+margin-top: 20px;
+}
